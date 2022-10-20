@@ -8,3 +8,6 @@ npm install -h angular/cli@latest
 
 ## ng serve para arrancar
 
+ANOTACIÓN
+Cuando es una clase donde estará el componenteponemos ts
+cuando creamos una  vista o template ponemos html

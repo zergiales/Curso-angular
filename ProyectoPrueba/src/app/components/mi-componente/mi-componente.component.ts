@@ -1,16 +1,13 @@
 import { Component } from "@angular/core";
 
 @Component({
+    //lo suyo es meter la vista separada del componente para separar template
     // metemos las varibales que hemos creado entre corchetes y sacamos el valor
     selector: 'mi-componente',
-    template: `
-        <h1>{{titulo}}</h1>
-        <h2>{{year}}</h2>
-        <p>{{comentario}}</p>
-    ` 
+    templateUrl: './mi-componente.component.html'
 })
 export class MiComponente{
-    // datos 
+    // datos que luego mostramos en la vista 
     public titulo: string;
     public comentario: string;
     public year: number;
