@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    //lo suyo es meter la vista separada del componente para separar template
+    //lo suyo es meter la vista separada de/l componente para separar template
     // metemos las varibales que hemos creado entre corchetes y sacamos el valor
     selector: 'mi-componente',
     templateUrl: './mi-componente.component.html'
