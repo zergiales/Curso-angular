@@ -5,7 +5,7 @@ npm install -h angular/cli@latest
 ## npm clean --force
 
 ## ng new para crear
-
+### por si acaso poner npm install para instalar todas las dependencias necesarias para el proyecto
 ## ng serve para arrancar
 
 ANOTACIÓN
