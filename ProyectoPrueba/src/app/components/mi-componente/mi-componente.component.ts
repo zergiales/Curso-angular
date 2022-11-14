@@ -11,13 +11,19 @@ export class MiComponente{
     public titulo: string;
     public comentario: string;
     public year: number;
+    public mostrarPeliculas: boolean;
 
     constructor(){
         this.titulo = "Hola mundo desde un cadena de caracteres en titulo";
         this.comentario = "Lo mismo que arriba pero con comentario en comentario";
         this.year = 2021;
+        this.mostrarPeliculas= true;
 
         console.log("Componente mi-componente cargado ! !");
         console.log(this.titulo, this.comentario, this.year);
+    }
+
+    ocultarPeliculas(){
+        this.mostrarPeliculas = false;
     }
 }

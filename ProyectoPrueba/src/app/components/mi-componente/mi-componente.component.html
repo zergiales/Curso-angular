@@ -1,4 +1,11 @@
-    <h1>{{titulo}}</h1>
-        <h2>{{year}}</h2>
-        <p>{{comentario}}</p>
-        <p>hola esto es un parrado sin variable</p>
+<h1>{{ titulo }}</h1>
+<h2>{{ year }}</h2>
+<p>{{ comentario }}</p>
+<p>hola esto es un parrado sin variable</p>
+<hr>
+
+<button (click)="mostrarPeliculas" >ocultar pelicula</button>
+
+<div *ngIf="mostrarPeliculas">
+    <h4>12 dalmatas</h4>
+</div>
