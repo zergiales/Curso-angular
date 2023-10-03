@@ -29,7 +29,7 @@ export class PeliculasComponent implements OnInit, DoCheck, OnDestroy {
    * 
    */
   ngOnInit(): void {
-    console.log("componente lanzado")
+    console.log("componente lanzado, metodo ngOnInit")
   }
   /** 
    *
@@ -41,7 +41,7 @@ export class PeliculasComponent implements OnInit, DoCheck, OnDestroy {
      console.log("lanzado docheck"); 
   }
   cambiarTitulo(){
-    this.titulo="titulo cambiado";
+    this.titulo="titulo cambiado"; //la variable ttulo cambiar de valor al llamar al metodo 
   }
 
   
